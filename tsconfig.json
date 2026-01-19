@@ -9,8 +9,9 @@
     "paths": {
       "@/*": ["src/*"]
     },
-//    "strict": true,
+    "strict": true,
     "jsx": "react-jsx",
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "noImplicitAny": false
   },
 }
